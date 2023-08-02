@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blackjack - Vite</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script type="module" crossorigin src="/assets/index-8695a4ca.js"></script>
+  <link rel="stylesheet" href="/assets/index-7e73988e.css">
+</head>
+
+<body>
+
+  <header class="title">
+    Blackjack
+  </header>
+  <div class="row mt-2">
+    <div class="col text-center">
+      <button id="btnNewGame" class="btn btn-danger">New Game</button>
+      <button id="btnNewCard" class="btn btn-primary">New Card</button>
+      <button id="btnStop" class="btn btn-primary">Stop</button>
+    </div>
+  </div>
+
+  <div class="row container">
+    <div class="col">
+      <h1>Jugador 1 = <small>0</small></h1>
+      <div id="jugador-cartas" class="divCartas">
+        <!-- <img class="carta" src="assets/cartas/AH.png"> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div class="row container mt-5">
+    <div class="col">
+      <h1>CPU = <small>0</small></h1>
+      <div id="cpu-cartas" class="divCartas">
+        <!-- <img class="carta" src="assets/cartas/KS.png"> -->
+
+      </div>
+    </div>
+  </div>
+
+  <div id="app"></div>
+  
+</body>
+
+</html>
